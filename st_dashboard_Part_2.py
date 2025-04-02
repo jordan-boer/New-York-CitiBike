@@ -101,7 +101,7 @@ elif page == 'Weather component and bike usage':
     )
 
     st.plotly_chart(fig_2, use_container_width=True)
-    st.markdown("There is a clear correlation in the relationship between the temperature and the frequency of bike trips taken daily. As temperatures decrease, so does bike usage. And as temperatures rise we se an increase in daily rides. This insight indicates that the bike shortage problem may predominantly occur during the warmer periods of the year, approximately from the beginning of April to the end of October.")
+    st.markdown("There is a clear correlation in the relationship between the temperature and the frequency of bike trips taken daily. As temperatures decrease, so does bike usage. And as temperatures rise we se an increase in daily rides. This insight indicates that the bike shortage problem may predominantly occur during the warmer periods of the year, approximately from mid-April to the end of October.")
 
 
 ##### Bar Chart (pg.3) #####
