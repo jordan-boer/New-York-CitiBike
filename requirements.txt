@@ -1,9 +1,10 @@
-pandas == 1.5.1
-numpy == 1.26.0
-requests == 2.28.1
-plotly == 5.13.0
-streamlit == 1.20.0
-matplotlib == 3.7.1
-streamlit_keplergl
-numerize == 0.12
-pillow == 9.4.0 --only-binary :all:
+pandas>=2.0.0
+numpy>=1.26.0
+requests==2.28.1
+plotly==5.13.0
+streamlit==1.20.0
+matplotlib>=3.7.1
+streamlit_keplergl==0.3.0
+numerize==0.12
+pillow>=9.4.0 --only-binary=:all:
+pip>=25.0.1
