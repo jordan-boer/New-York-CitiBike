@@ -36,8 +36,8 @@ top20 = pd.read_csv('top20.csv', index_col = 0)
 if page == "Introduction":
     st.markdown("#### This dashboard aims to help make informed decisions regarding Citi Bike's availability issues and bike distribution across the city.")
     st.markdown("Since Citi Bike's launch in 2013, popularity for sustainable and convenient transportation has increased. The Covid-19 pandemic created higher demand leading to distribution problems and, customer complaints, such as fewer bikes at popular stations and the inability to return bikes due to full docking stations. This analysis looks to diagnose the root of the distribution and demand problem and provide actionable insights. The dashboard is separated into 4 sections:")
-    st.markdown("- Most popular stations")
     st.markdown("- Weather component and bike usage")
+    st.markdown("- Most popular stations")
     st.markdown("- Interactive map with aggregated bike trips")
     st.markdown("- Recommendations")
     st.markdown("#### The dropdown menu on the left 'Aspect Selector' will take you to the different aspects of the analysis.")
@@ -101,7 +101,7 @@ elif page == 'Weather component and bike usage':
     )
 
     st.plotly_chart(fig_2, use_container_width=True)
-    st.markdown("There is a clear correlation in the relationship between the temperature and the frequency of bike trips taken daily. As temperatures decrease, so does bike usage. And as temperatures rise we se an increase in daily rides. This insight indicates that the bike shortage problem may predominantly occur during the warmer periods of the year, approximately from the beginning of April to the end of October.")
+    st.markdown("There is a clear correlation in the relationship between the temperature and the frequency of bike trips taken daily. As temperatures decrease, so does bike usage. And as temperatures rise we se an increase in daily rides. This insight indicates that the bike shortage problem may predominantly occur during the warmer periods of the year, approximately from mid-April to the end of October.")
 
 
 ##### Bar Chart (pg.3) #####
